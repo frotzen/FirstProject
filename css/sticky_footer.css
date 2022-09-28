@@ -1,0 +1,25 @@
+/* site.css */
+
+/* {styles for sticky footer}
+
+  take up all vertical space */
+html,
+body {
+  height: 100%;
+}
+
+/* set flex in column mode */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* minimize footer with flex-shrink */
+footer {
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1 0 auto; /* flex grow, flex shink, flex basis */
+}
+/* {end styles for sticky footer} */

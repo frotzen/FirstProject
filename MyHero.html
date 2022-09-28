@@ -19,7 +19,7 @@
     />
     <!--Custom CSS-->
     <link rel="stylesheet" href="/css/site.css" />
-    <title>First Project</title>
+    <title>First Project - My Hero</title>
   </head>
 
   <body>
@@ -45,18 +45,18 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="/index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/SimpleGrid.html">Simple Grid</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/MyHero.html">My Hero</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/MyHero.html"
+                  >My Hero</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/MarvelFanPage.html"
@@ -69,17 +69,34 @@
       </nav>
     </header>
 
-    <main class="mt-4 mb-4 border border-success border-4 content">
+    <main class="mt-4 mb-4 border border-success border-4 content container">
       <!--margin top: mt, margin bottom: mb-->
       <!--holds all the html content for the body-->
-      <div class="container border border-3 border-danger">
-        <img
-          src="/img/CF_Logo_BO.png"
-          class="img-fluid"
-          alt="Coder Foundry Logo"
-        />
-        <h1 class="text-center">Hello Coder Foundry</h1>
-        <p class="text-center">Coding at Coder Foundry is Fun!</p>
+      <h1>My Hero</h1>
+      <div class="row">
+        <div class="col">
+          <h2>Richard "Rick" Sanchez</h2>
+          <img
+            class="img-fluid"
+            src="/img/rick-and-morty-30990.png"
+            alt="image of Rick Sanchez"
+          />
+        </div>
+        <div class="col">
+          <h2>About</h2>
+          <p>
+            Because the fruits of my imagination would likely get me, and
+            probably others, banned in most countries, I applaud Rick for doing
+            what I can't. Somebody has to.
+          </p>
+
+          <p>
+            He was created by both Justin Roiland and Dan Harmon. He was voiced
+            by Justin Roiland. Rick Sanchez is a misanthropic alcoholic
+            scientist inspired by Christopher Lloyd's Dr. Emmett "Doc" Brown
+            from Back to the Future and Reed Richards from Marvel Comics.
+          </p>
+        </div>
       </div>
     </main>
 

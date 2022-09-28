@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--^TAG ^attribute -->
+  <!-- All Code goes in the html tag-->
+  <head>
+    <!-- Required Metatags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="/css/site.css" />
+    <title>First Project - Marvel Fan Page</title>
+  </head>
+
+  <body>
+    <!--All HTML content is in the body tag-->
+    <header>
+      <!--contains navbar-->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!-- navbar-dark
+                                    is for dark navbars.  it's really light.-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">FirstProject</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/SimpleGrid.html">Simple Grid</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/MyHero.html">My Hero</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/MarvelFanPage.html"
+                  >Marvel Fan Page</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mt-4 mb-4 content container">
+      <div class="text-center">
+        <img
+          class="img-fluid logoImage"
+          src="/img/HeroImages/Marvel_Logo.png"
+        />
+        <h1>Welcome to my Marvel Fan Page</h1>
+      </div>
+      <p>
+        Marvel comics was founded in 1939 as Timely Comics due to the rise in
+        popularity of comic books. It would later become known as Marvel Comics
+        after a brief period as Atlas Magazines. With the arrival of DC Comics,
+        the industry saw competition between the two companies throughout the
+        rest of the 20th century. During this period, and for nearly 60 years,
+        Stanley Lieber worked at Marvel. We know him as Stan Lee, and he is
+        responsible for may of my favorite heroes. Later, after going through a
+        bankruptcy, the company emerged as Marvel Studios, expanding it's market
+        coverage into cinematics. Eventually, Marvel Studios would be bought out
+        by Walt Disney Company.
+      </p>
+      <p>
+        Marvel Entertainment Group was formed in 1986. Soon after, it began to
+        partner with several businesses and began purchasing small companies
+        that were aligned with its goals of increasing sales and footprint. As
+        mentioned previously, it would go through a rough patch, but emerge to
+        become even more successful. After being bought by Disney, in 2009,
+        Marvel Entertainment became a global powerhouse. There are now several
+        subsidaries of Marvel, and it seems to still be growing. Anyway, here is
+        a list of my favorite heroes to come out of a comics company of such
+        humble beginnings.
+      </p>
+      <h2 id="heroText">List Of Heroes</h2>
+      <table class="table table-striped">
+        <tr>
+          <th>Super Hero</th>
+          <th>Alter Ego</th>
+          <th>Powers</th>
+          <th>Picture</th>
+        </tr>
+        <tr>
+          <td>Spiderman</td>
+          <td>Peter Parker</td>
+          <td>Climbs Walls, Super Strength</td>
+          <td>
+            <img
+              src="/img/HeroImages/spidey.jpeg"
+              class="img-fluid heroImage rounded"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Captain America</td>
+          <td>Steve Rodgers</td>
+          <td>Super Soldier, Cool Shield</td>
+          <td>
+            <img
+              src="/img/HeroImages/ClassicCap.png"
+              class="img-fluid heroImage rounded"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Iron Man</td>
+          <td>Tony Stark</td>
+          <td>AI Armor Suit, Genius IQ</td>
+          <td>
+            <img
+              src="/img/HeroImages/ironman-bleeding-edge.jpg"
+              class="img-fluid heroImage rounded"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Luke Cage</td>
+          <td>Carl Lucas</td>
+          <td>Superhuman Strength, Unbreakable Skin</td>
+          <td>
+            <img
+              src="/img/HeroImages/lukecage.png"
+              class="img-fluid heroImage rounded"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Hulk</td>
+          <td>Bruce Banner</td>
+          <td>Genius IQ as Banner, Super Strength as Hulk</td>
+          <td>
+            <img
+              src="/img/HeroImages/hulk_PNG110.png"
+              class="img-fluid heroImage rounded"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Doctor Strange</td>
+          <td>Steven Strange</td>
+          <td>Sorcery</td>
+          <td>
+            <img
+              src="/img/HeroImages/009drs_com_inl_02.jpg"
+              class="img-fluid heroImage rounded"
+            />
+          </td>
+        </tr>
+      </table>
+      <!--margin top: mt, margin bottom: mb-->
+      <!--holds all the html content for the body-->
+    </main>
+
+    <footer class="bg-dark text-center text-light ps-3 pe-2 pt-2 pb-3">
+      <!-- padding start: ps, padding end: pe, padding top: pt,
+             padding bottom: pb, padding x: px, padding y: py-->
+      <!--holds information for our footer at the bottom of the page-->
+      info@coderfoundry.com
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+/* site.css */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* Classes */
+.content {
+  flex: 1 0 auto;
+}
+
+.logoImage {
+  max-width: 300px;
+}
+
+.heroImage {
+  max-width: 200px;
+}
+
+/* IDs -- unique */
+#heroText {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4rem; /* 1rem is default */
+  text-transform: uppercase;
+  color: red;
+  text-shadow: 2px 1px #292929;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
